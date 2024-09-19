@@ -49,12 +49,7 @@ header {
 .hero {
     height: 100vh;
     background: url('path-to-your-hero-image/hero.jpg') no-repeat center center/cover;
-    background-image: url('your-parallax-image.jpg');
-    height: 100vh;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
