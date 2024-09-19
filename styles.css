@@ -48,12 +48,21 @@ header {
 
 .hero {
     height: 100vh;
-    background: url('path-to-your-hero-image/hero.jpg') no-repeat center center/cover;
-    display: flex;
+    background-image: url('path-to-your-hero-image/hero.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: #fff;
+}
+.parallax {
+    background-image: url('your-parallax-image.jpg');
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-content h1 {
