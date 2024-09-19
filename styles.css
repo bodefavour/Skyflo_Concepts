@@ -106,12 +106,42 @@ header {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
+    position: relative;
 }
 
 .carousel-item img {
     max-width: 100%;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
+
+.carousel-item h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.carousel-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.slick-prev, .slick-next {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.slick-dots {
+    bottom: -30px;
+}
+
 .product-item {
     background-color: #fff;
     padding: 20px;
